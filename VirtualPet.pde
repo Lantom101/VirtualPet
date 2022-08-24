@@ -6,11 +6,15 @@ void setup()
 void draw() 
 { 
   background(0,100,0);
+  // panda arms
+  fill(0,0,0);
+  ellipse(280,330,100,50);
+  ellipse(120,330,100,50);
   // panda body
   fill(0,0,0);
   ellipse(200,350,180,200);
   fill(255,255,255);
-  ellipse(200,370,150,160);
+  ellipse(200,350,130,150);
   // panda ears
   fill(0,0,0);
   ellipse(150,120,70,70);
