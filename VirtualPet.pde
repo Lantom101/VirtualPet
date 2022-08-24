@@ -14,7 +14,7 @@ void draw()
   fill(0,0,0);
   ellipse(200,350,180,200);
   fill(255,255,255);
-  ellipse(200,350,130,150);
+  ellipse(200,360,130,100);
   // panda ears
   fill(0,0,0);
   ellipse(150,120,70,70);
@@ -32,6 +32,11 @@ void draw()
   fill(0,0,0);
   ellipse(173,200,18,18);
   ellipse(227,200,18,18);
-  // panda nose and mouth
+  // panda nose
   triangle(200,235,190,225,210,225);
+  // panda blush
+  fill(244,194,194);
+  noStroke();
+  ellipse(140,230,30,15);
+  ellipse(260,230,30,15);
 }
